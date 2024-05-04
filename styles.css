@@ -1,0 +1,54 @@
+:root {
+    --primary-color: #020617;
+    --secondary-color: #059669;
+    --bg-color: #f8fafc; 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    transition: 200ms;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+    padding: 14px;
+}
+
+.greenText {
+    color: #059669;
+}
+
+.blackText {
+    color: #020617;
+}
+
+header {
+    margin: 0 auto;
+    width: 100%;
+}
+
+main, footer {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.aboutButton {
+    display: flex;
+    float: right;
+    padding: ;
+    gap: 14px;
+    cursor: pointer;
+}
+
+p {
+    font-size: 1.05em;
+}
